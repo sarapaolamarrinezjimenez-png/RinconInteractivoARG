@@ -1,0 +1,55 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Más allá de la puerta</title>
+
+    <link rel="stylesheet" href="../css/dead.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link rel="icon" type="image/png" href="../img/RinLogo.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+</head>
+
+<body class="ondo">
+
+   <audio id="musica" loop>
+        <source src="../sonido/Grabación 2026-10-30 200628.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        const musica = document.getElementById("musica");
+
+        document.addEventListener("click", () => {
+            musica.play();
+        }, { once: true });
+    </script>
+    <main class="final-perdido">
+
+        <h1 class="titulo-perdido">GAME OVER</h1>
+
+        <div class="mensaje-perdido">
+            <p>No debiste probar algo que no conocías...</p>
+            <p>Todo empieza a dar vueltas. Parece que el camino llegó a su fin.</p>
+        </div>
+
+        <div class="enlaces-perdido">
+            <a href="../html/bosque.html">Volver a intentarlo</a>
+            <span>—</span>
+            <a href="../html/habitaciones.html">Volver a la cabaña</a>
+        </div>
+
+    </main>
+
+   
+
+</body>
+</html>

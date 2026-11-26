@@ -1,0 +1,68 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Más allá de la puerta</title>
+
+    <link rel="stylesheet" href="../css/explorar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="../css/cursor.css">
+
+</head>
+
+<body class="fond">
+
+   <audio id="musica" loop>
+        <source src="../sonido/by kiki.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        const musica = document.getElementById("musica");
+
+        document.addEventListener("click", () => {
+            musica.play();
+        }, { once: true });
+    </script>
+
+
+    
+    <main class="encuentro-gato">
+
+        <div class="relato-gato">
+            <p>
+                Te acercás un poco más, pero un gato aparece entre los árboles
+                y se queda observándote.
+            </p>
+
+            <p>
+                Se acerca unos pasos, te olfatea y luego se sienta frente a vos.
+                Parece tener curiosidad, aunque todavía no confía del todo.
+            </p>
+
+            <p>
+                Después de un momento, se levanta y comienza a caminar unos metros.
+                Se detiene y voltea a verte, como si quisiera que lo siguieras.
+            </p>
+        </div>
+
+        <div class="decisiones-gato">
+            <a href="../html/seguirlo.html">Seguir al gato</a>
+            <span>—</span>
+            <a href="../html/noseguirlo.html">Quedarte donde estás</a>
+        </div>
+
+    </main>
+
+
+</body>
+</html>

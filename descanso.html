@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Descanso</title>
+
+    <link rel="stylesheet" href="../css/jardin.css">
+    <link rel="stylesheet" href="../css/gif.css">
+    <link rel="stylesheet" href="../css/img.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/cursor.css">
+            <link rel="icon" type="image/png" href="../img/RinLogo.png">
+
+
+
+    <link rel="icon" type="image/png" href="../img/RinLogo.png">
+
+</head>
+
+<body class="e">
+
+    <header>
+        <h1 class="eitulo">Sientate y Descansa un Rato</h1>
+    </header>
+
+ <audio id="musica" loop>
+    <source src="../sonido/ambience.mp3" type="audio/mpeg">
+ </audio>
+
+ <script>
+    const musica = document.getElementById("musica");
+
+    document.addEventListener("click", () => {
+        musica.play();
+    }, { once: true });
+ </script>
+ 
+ <p class="text-fijo"> ¡Ya descansamos un ratito! ¿Qué tal si seguimos con el recorrido? 
+                      <br>Todavía quedan algunos rincones por descubrir. </p>
+
+
+    
+
+
+<a href="../html/jardininterior.html" class="regreso">Levantarse jardin</a><br>
+<br><a href="../html/sala.html" class="regreso">Levantarse sala</a>
+
+
+
+</body>
+</html>

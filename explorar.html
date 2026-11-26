@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Afuera</title>
+
+    <link rel="stylesheet" href="../css/explorar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="../img/RinLogo.png">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+</head>
+
+<body class="fondo">
+
+   <audio id="musica" loop>
+        <source src="../sonido/soundreality-rain-sound-550289.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        const musica = document.getElementById("musica");
+
+        document.addEventListener("click", () => {
+            musica.play();
+        }, { once: true });
+    </script>
+
+
+    <main class="pagina-recorrido">
+
+        <div class="texto-pagina">
+
+            <p>Saliste afuera... ¿De verdad querés seguir adelante?</p>
+
+            <p>
+                El jardín está húmedo y gris, nadie ha estado aquí en muchos años.
+                Al final del césped oscuro hay una vieja verja de hierro.
+            </p>
+
+            <p>Conduce hacia el bosque.</p>
+
+        </div>
+
+        <div class="opciones-pagina">
+
+            <a href="bosque.html">¿Seguir adelante?</a>
+
+            <span> </span>
+
+            <a href="../html/sala.html">Volver adentor</a>
+
+        </div>
+
+    </main>
+
+</body>
+</html>

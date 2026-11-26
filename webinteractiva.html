@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Interactiva</title>
+    <link rel="icon" type="image/png" href="../img/RinLogo.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/gif.css">
+    <link rel="stylesheet" href="../css/img.css">
+    <link rel="stylesheet" href="../css/sonido.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="../css/cursor.css">
+
+</head>
+<body class="web-body">
+    
+    <header class="web-header">
+        <marquee><h1>Web Interactiva</h1></marquee>
+        <p>Un espacio para explorar y descubrir cosas nuevas.</p>
+    </header>
+
+      <audio id="musica" loop>
+    <source src="../sonido/ambience.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+    const musica = document.getElementById("musica");
+
+    document.addEventListener("click", () => {
+        musica.play();
+    }, { once: true });
+</script>
+   
+    <main class="web-main">
+       
+        <section class="web-section">
+            <h2>¿Qué es una página web interactiva?</h2>
+            <p>
+               Una página web interactiva es un sitio donde el usuario puede 
+               participar y realizar diferentes acciones, no solamente leer o ver información. 
+               Puede hacer clic en botones, explorar secciones, jugar, ver imágenes y videos, escuchar música, 
+               abrir archivos y utilizar diferentes elementos de la página.
+            </p>
+        </section>
+
+        <section class="web-section">
+            <h2>¿Qué se considera un sitio web interactivo?</h2>
+            <p>
+               Un sitio web interactivo puede ser cualquier sitio web que permita a los usuarios hacer 
+               algo más que leer el texto o desplazarse por las imágenes. Pero siempre hay que ser algo y ser realmente bueno en algo. 
+               Entonces, ¿qué hace que un sitio web sea más interactivo?
+
+               Hay ciertas características que crean espacio para una mejor oportunidad de construir un sitio web 
+               interactivo que realmente desafía los límites.
+
+               Funciones como menús de navegación avanzados, enlaces internos, barras de búsqueda, formularios y botones, 
+               vídeos, elementos animados – efectos 3D de hover o scroll –, herramientas interactivas de feedback, etc.
+            </p>
+        </section>
+
+        <section class="web-section">
+            <h2>Sitios web interactivos que servirán de ejemplo</h2>
+
+            <h3>Estas páginas aunque distintas, cumplen con los requisitos de una página interactiva.</h3>
+
+            <a href="https://www.windows93.net/" target="_blank">Windows 93</a>
+            <br>
+            <p>
+                Windows 93 es una página web que simula el escritorio de una computadora antigua. 
+                Su diseño está inspirado en los sistemas operativos de los años 90 y cuenta con diferentes programas,
+                juegos, ventanas y herramientas que se pueden utilizar directamente desde el navegador. 
+                Permite abrir aplicaciones, explorar sus funciones, mover ventanas y descubrir elementos escondidos, 
+                haciendo que la navegación se sienta como utilizar una computadora virtual.
+            </p>
+            <br>
+
+            <a href="https://faegardens333.neocities.org/333/" target="_blank">Faegardens333</a>
+            <br>
+            <p>
+                Faegardens es una página personal creada en Neocities que reúne diferentes 
+                contenidos y elementos para explorar. Cuenta con varias secciones a las que se 
+                puede acceder mediante enlaces, como galerías de arte, álbumes, un diario, recursos y 
+                otras páginas. También incluye botones para cambiar entre el modo claro y oscuro, 
+                un reproductor de música, imágenes, enlaces externos y un espacio para comentarios. 
+                Su interactividad está en permitir que cada visitante navegue libremente por sus diferentes 
+                apartados y descubra el contenido del sitio.
+            </p>
+        </section>
+
+        <section class="contenedor-video">
+        
+            <h2>Kitty GO</h2>
+            <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube-nocookie.com/embed/QmpXxMto50k" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+            </iframe>
+        </section>
+
+
+        <section class="web-section">
+            <h2>Las Webs</h2>
+
+            <img class="web-img" src="../img/93.png" alt="windows93">
+            <img class="web-img" src="../img/Captura de pantalla 2026-10-31 084947.png" alt="faegardens333">
+        </section>
+                     
+        <p>El Rincón Interactivo busca la interacción en la web, estaba pensado ponerle 
+           elementos con Javascript pero por errores técnicos esa idea fue descartada, por el momento</p>
+
+    </main>
+
+    <footer class="web-footer">
+        <p>© 2026 Rincón Interactivo: ARG Experimental. Gracias por perder unos minutos de tu vida aquí</p>
+        <b><p>Las marcas, personajes e imágenes ajenas pertenecen a sus respectivos autores.</p></b>
+        <a href="../html/arg.html">Volver Atrás</a> <a href="../html/cabana.html">Sigue Adelante</a>    
+    </footer>
+
+</body>
+</html>

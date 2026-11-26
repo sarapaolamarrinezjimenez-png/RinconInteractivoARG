@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El jardín escondido</title>
+    <link rel="stylesheet" href="../css/explorar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="../css/cursor.css">
+                <link rel="icon" type="image/png" href="../img/RinLogo.png">
+
+
+</head>
+<body class="si">
+
+    
+    <audio id="musica" loop>
+        <source src="../sonido/credits cora.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        const musica = document.getElementById("musica");
+
+        document.addEventListener("click", () => {
+            musica.play();
+        }, { once: true });
+    </script>
+
+
+    <main class="camino-sombrio">
+
+        <div class="relato-persecucion">
+            <p>
+                Al continuar explorando, encuentras un camino rodeado de árboles
+                con copas redondas y frondosas.
+            </p>
+
+            <p>
+                Todo parece tranquilo, pero después de avanzar,
+                escuchas pasos detrás de ti.
+            </p>
+
+            <p>
+                Al mirar hacia atrás, notas una figura que se mueve entre los árboles.
+                No puedes distinguir qué es, pero parece que te está siguiendo.
+            </p>
+
+        </div>
+
+        <div class="opciones-persecucion">
+            <a href="../html/corre.html">Correr</a>
+            <span>—</span>
+            <a href="../html/esconderse.html">Intentar esconderte</a>
+        </div>
+
+    </main>
+</body>
+</html>

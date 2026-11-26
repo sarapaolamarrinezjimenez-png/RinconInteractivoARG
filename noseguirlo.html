@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Over</title>
+    <link rel="stylesheet" href="../css/dead.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+</head>
+<body class="sim">
+    
+     <audio id="musica" loop>
+        <source src="../sonido/1-31 The Shanty Village.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        const musica = document.getElementById("musica");
+
+        document.addEventListener("click", () => {
+            musica.play();
+        }, { once: true });
+    </script>
+
+
+    <main class="final-espectral">
+
+        <h1 class="titulo-final">GAME OVER</h1>
+
+        <div class="relato-final">
+            <p>
+                El bosque vuelve a ponerse gris, las flores pierden su color
+                y el gato desaparece entre los árboles.
+            </p>
+
+            <p>
+                De pronto, un espectro aparece a lo lejos y corre directamente
+                hacia ti. Intentas reaccionar, pero ya es demasiado tarde.
+            </p>
+
+            <p>No debiste dejar al gato atrás.</p>
+        </div>
+
+        <div class="volver-final">
+            <a href="../html/haceramigos.html">Volver a intentarlo</a>
+        </div>
+
+    </main>
+
+</body>
+</html>

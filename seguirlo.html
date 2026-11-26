@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El jardín escondido</title>
+    <link rel="stylesheet" href="../css/explorar.css">
+    <link rel="stylesheet" href="../css/explorar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="../css/cursor.css">
+                <link rel="icon" type="image/png" href="../img/RinLogo.png">
+
+
+</head>
+<body class="simple">
+
+    
+    <audio id="musica" loop>
+        <source src="../sonido/icedance.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        const musica = document.getElementById("musica");
+
+        document.addEventListener("click", () => {
+            musica.play();
+        }, { once: true });
+    </script>
+
+
+    <main class="jardin-escondido">
+
+        <div class="relato-flores">
+            <p>
+                El gato continúa caminando por el sendero y lo sigues hasta
+                llegar a un pequeño jardín de flores escondido entre los árboles.
+            </p>
+
+            <p>
+                Hay flores de distintos colores por todas partes; algunas crecen
+                entre las piedras y otras se extienden a lo largo del camino.
+                El gato avanza entre ellas hasta encontrar un lugar donde acostarse.
+            </p>
+
+            <p>
+                Parece que le gusta ese sitio. Se acomoda entre las flores y
+                cierra los ojos, como si quisiera quedarse allí un buen rato.
+            </p>
+        </div>
+
+        <div class="eleccion-flores">
+            <a href="../html/seguir.html">Seguir explorando</a>
+        </div>
+
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Over</title>
+    <link rel="stylesheet" href="../css/dead.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="../img/RinLogo.png">
+
+
+
+</head>
+<body class="dead">
+
+
+    <audio id="musica" loop>
+        <source src="../sonido/lobotomy.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        const musica = document.getElementById("musica");
+
+        document.addEventListener("click", () => {
+            musica.play();
+        }, { once: true });
+    </script>
+
+
+    <main class="final-oscuridad">
+
+        <h1 class="titulo-oscuridad">GAME OVER</h1>
+
+        <div class="relato-oscuridad">
+            <p>
+                Encuentras un lugar donde esconderte 
+            </p>
+
+            <p>
+                Sin embargo, escuchas sus pasos y 
+                te encuentra.
+            </p>
+
+            <p>
+                Todo se vuelve oscuro, la oscuridad te mira y el bosque desaparece, no
+                puedes distinguir nada a tu alrededor.
+            </p>
+        </div>
+
+        <div class="opciones-oscuridad">
+            <a href="../html/seguir.html">Volver a intentarlo</a>
+        </div>
+
+    </main>
+
+</body>
+</html>

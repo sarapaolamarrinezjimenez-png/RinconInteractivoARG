@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>La cabaña</title>
+
+    <link rel="stylesheet" href="../css/cabana.css">
+        <link rel="stylesheet" href="../css/cursor.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../img/RinLogo.png">
+</head>
+
+<body>
+
+<main class="cabana-inicio">
+      
+    <div class="gifs-cabana">
+        <img src="../gif/bfe124083f3acdfb46569a38a83b6bf2.gif" alt="Decoración">
+        <img src="../gif/bfe124083f3acdfb46569a38a83b6bf2.gif" alt="Decoración">
+        <img src="../gif/bfe124083f3acdfb46569a38a83b6bf2.gif" alt="Decoración">
+    </div>
+
+    <div class="cabana-encabezado">
+
+    <p>UN LUGAR ENTRE LOS ÁRBOLES</p>
+
+    <h1>La Cabaña</h1>
+
+    <p>Un lugar lejos del ruido de siempre.</p>
+
+    <table class="tabla-sonido">
+        <tr>
+            <td>
+                <audio class="principalsonido" controls src="../sonido/welcome home.mp3"></audio>
+            </td>
+        </tr>
+    </table>
+
+     <audio id="musica" loop>
+    <source src="../sonido/ambience.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+    const musica = document.getElementById("musica");
+
+    document.addEventListener("click", () => {
+        musica.play();
+    }, { once: true });
+</script>
+
+</div>
+
+
+    <div class="cabana-presentacion">
+
+        <div class="cabana-imagen">
+            <img src="../img/8924016_editado (1).jpg" alt="Cabaña entre los árboles">
+        </div>
+
+        <div class="cabana-descripcion">
+
+            <h2>Un lugar para quedarse un rato...</h2>
+
+            <p>
+                Entre árboles, plantas y caminos un poco escondidos,
+                se encuentra esta cabaña, no es un lugar
+                grande, pero tiene todo lo necesario
+                para pasar el tiempo.
+            </p>
+
+            <p>
+                Podés recorrer sus habitaciones, mirar los objetos
+                que hay en cada una y descubrir si hay pequeños detalles
+                que quizás pasen desapercibidos a primera vista.
+            </p>
+
+            <p class="nota-cabana">
+                Actualmente hay tres habitaciones disponibles.
+            </p>
+
+            <a class="entrar-cabana" href="habitaciones.html">
+                ENTRAR A LA CABAÑA →
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="cabana-detalles">
+
+        <span>Cuarto</span>
+        <span>Jardín Interior</span>
+        <span>Sala</span>
+
+    </div>
+           <br>
+            <a href="../html/webinteractiva.html">Volver Atrás
+                <br>
+                            <a href="../index.html">Inicio
+
+
+</main>
+</body>
+</html>

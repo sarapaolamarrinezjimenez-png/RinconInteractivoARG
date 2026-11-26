@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Dónde estamos?</title>
+    <link rel="stylesheet" href="../css/yahora.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Princess+Sofia&display=swap" rel="stylesheet">
+</head>
+
+<body class="caida-puerta">
+
+
+    <audio id="musica" loop>
+        <source src="../sonido/Grabación 2026-11-03 020300.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        const musica = document.getElementById("musica");
+
+        document.addEventListener("click", () => {
+            musica.play();
+        }, { once: true });
+    </script>
+
+    <main class="escena-puerta">
+
+        <section class="texto-puerta">
+            <p class="aviso-puerta">...</p>
+
+            <h1>¿Dónde estamos?</h1>
+
+            <p>
+                Todo quedó en silencio.
+                No sabemos cuánto tiempo estuvimos ahí abajo,
+                pero parece que hemos llegado a algún otro lugar.
+            </p>
+
+            <p>
+                A lo lejos hay una puerta y
+                parece ser la única salida.
+            </p>
+
+            <p class="indicacion-puerta">
+                Deberíamos acercarnos.
+            </p>
+        </section>
+
+        <a href="../html/fin.html" class="enlace-puerta">
+            <img src="../img/ecd8d207b01124b3b5de633c6363a968.jpg" alt="Una puerta a lo lejos">
+            <span>Entrar</span>
+        </a>
+
+    </main>
+
+</body>
+</html>

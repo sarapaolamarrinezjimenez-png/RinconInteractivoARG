@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dormitorio</title>
+    
+    <link rel="icon" type="image/png" href="../img/RinLogo.png">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/cuarto.css">
+    <link rel="https://fonts.google.com/specimen/Press+Start+2P">
+    <link rel="https://fonts.google.com/specimen/Cutive+Mono">
+        <link rel="stylesheet" href="css/cursor.css">
+
+
+
+</head>
+
+<body class="fondoo">
+
+    <audio id="musica" loop>
+        <source src="../sonido/calm.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        const musica = document.getElementById("musica");
+
+        document.addEventListener("click", () => {
+            musica.play();
+        }, { once: true });
+    </script>
+
+    <main class="room-scene">
+
+        <a href="habitaciones.html" class="puerta">
+            <img src="../img/0b2651fd266427630e0b4397301f51e2-removebg-preview.png" alt="Regresar">
+        </a>
+
+
+        <img src="../img/a18a51f1201a0f2afe8937eec3ae34e3.jpg"
+             class="estante" alt="Estante">
+
+         <a href="../html/dormir.html" class="cama">
+        <img src="../img/b028863255af45bb50fdab38439ffa8e-removebg-preview.png"
+             class="cama" alt="Cama">
+          </a>
+
+        <img src="../img/385ee497788dcbdd96cc5cc634d176c5-removebg-preview.png"
+             class="mesa" alt="Mesa">
+
+
+         <a href="../html/libros.html" class="libros">
+        <img src="../img/84ed7f437b3839a8d29a0006502cf0b7-removebg-preview.png"
+             class="libros" alt="Libros">
+          </a>
+
+             <img class="computadora" src="../img/8a7146b00cef4c26e3dd936dc7ba85f0-removebg-preview.png"
+                 alt="Computadora">
+    
+
+       <img src="../img/6dd7329fdd310fc7f1045d00dbece374-removebg-preview.png"
+             class="objeto1" alt="">
+
+              <a href="../html/computadora.html">
+       <img src="../img/f19fee0a12968399b81daf6aa1272b91-removebg-preview.png"
+             class="objeto2" alt="">
+              </a>
+        <img src="../img/1efd41dae88e99be979f82f11a2d99c8-removebg-preview.png"
+             class="objeto3" alt="">
+
+    </main>
+
+</body>
+</html>

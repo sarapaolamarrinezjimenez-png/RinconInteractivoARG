@@ -1,0 +1,68 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bosque</title>
+
+    <link rel="stylesheet" href="../css/explorar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="icon" type="image/png" href="../img/RinLogo.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/cursor.css">
+
+</head>
+
+<body class="ondo">
+
+   <audio id="musica" loop>
+        <source src="../sonido/ambience.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        const musica = document.getElementById("musica");
+
+        document.addEventListener("click", () => {
+            musica.play();
+        }, { once: true });
+    </script>
+
+
+    <main class="pagina-recorridoo">
+
+        <div class="texto-paginaa">
+            <p>
+                Continuás por el camino, la lluvia se fue y los árboles se vuelven cada vez más altos
+                y están cubiertos de musgo.
+            </p>
+
+            <p>
+                Olvidás por dónde viniste, incluso por qué dejaste la seguridad
+                de la casa...
+            </p>
+
+            <p>
+                Cae la noche, o al menos eso creés. Con la oscuridad aparecen
+                unas pequeñas luces brillantes que se acercan y te rodean.
+            </p>
+        </div>
+
+        <div class="opciones-paginaa">
+            <a href="../html/comer.html">¡Comete una!</a>
+            <span>—</span>
+            <a href="../html/haceramigos.html">Intentar hacer amigos...</a>
+        </div>
+
+    </main>
+
+
+</body>
+</html>
